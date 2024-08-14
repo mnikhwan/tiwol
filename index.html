@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./style.css" />
     
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
@@ -28,7 +29,7 @@
         
         <div class="navbar-center flex flex-col">
 
-          <a class="btn btn-ghost text-base sm:text-base">Brownies Tiwul | Q&Q</a>
+          <a href="" class="btn btn-ghost text-base sm:text-base">Brownies Tiwul | Q&Q</a>
 
           <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
@@ -42,8 +43,8 @@
                   </ul>
                 </details>
               </li>
-              <li><a>Tentang Kami</a></li>
-              <li><a>Pesan Sekarang</a></li>
+              <li><a href="">Tentang Kami</a></li>
+              <li><a href="#pesan">Pesan Sekarang</a></li>
               
               </ul>
               </div>
@@ -61,12 +62,12 @@
             <div style="z-index: 20 !important;" class="hero-content text-neutral-content text-center">
             <div class="max-w-xl" >
               <h1 style="font-family: 'Gloria Hallelujah', cursive;color: #fff;" class="mb-5 text-6xl font-bold">Brownies Tiwol</h1>
-              <div class="chat chat-start">
+              <div data-aos="fade-right" class="chat chat-start">
                 <div class="chat-bubble text-start">
                   Hai👋🏻, Sudah Tahu Belum Apa itu Brownies Tiwol ?.
                 </div>
               </div>
-              <div class="chat chat-end">
+              <div data-aos="fade-left" class="chat chat-end">
                 <div class="chat-bubble">Coba Kenalin dong !!</div>
               </div>              
               
@@ -94,10 +95,10 @@
             <div class="hero-content  flex  flex-col lg:flex-col pt-4 z-20">
                  
               <div class="flex flex-col text-center text-zinc-200" style="z-index: 30;">
-                <p class="mb-5" style="font-family: 'Caveat', cursive; font-size: 40px;">
+                <p class=" mb-5" style="font-family: 'Caveat', cursive; font-size: 40px; margin-top: 3rem; ;">
                   "Dengan Kenikmatan yang Autentik dapat menambahkan Cita Rasa yang Khas"
                 </p>
-                <p class="mb-5 text-base" >
+                <p class="mb-24 text-base" >
                   -Good People Eat, Good Dessert.-
                 </p>
               </div>
@@ -110,14 +111,14 @@
 
                   <div class="itu flex flex-col ">
 
-                    <div class="chat chat-start">
+                    <div data-aos="fade-right" class="chat chat-start">
                       <div class="chat-bubble text-start">
-                        Apa itu Brownies Tiwul?
+                        Apa itu Brownies Tiwul ?
                       </div>
                     </div>
-                    <div class="chat chat-end">
+                    <div class="chat chat-end" data-aos="fade-left">
                       <div class="chat-bubble">
-                        Ini dia inovasi camilan yang menggabungkan cita rasa tradisional tiwul dengan kelezatan cokelat modern. Bayangkan, tekstur tiwul yang kenyal bertemu dengan kelembutan cokelat, menghasilkan perpaduan rasa yang unik dan bikin ketagihan!
+                        Brownies Tiwol merupakan inovasi camilan terkini dengan menggabungkan cita rasa tradisional tiwol dengan kelezatan yang lebih modern. Sehingga, perpaduan rasa unik dari tekstur tiwol yang kenyal berbalut kelembutan berbagai macam topping dapat menghasilkan keserasian 😋.
                       </div>
                     </div>              
 
@@ -134,11 +135,11 @@
               
 
       <!-- gallery -->
-      <header style="background-color: #FBCB0D;" class="mt-12 text-zinc-800 rounded-lg text-center py-4 lg:px-96">
+      <header style="background-color: #FBCB0D;" class="mt-32 text-zinc-800 rounded-lg text-center py-4 lg:px-96">
         <h1 class="text-2xl font-bold">Varian Rasa Brownies Tiwol</h1>
     </header>
 
-    <main class="container mx-auto my-8 px-4">
+    <main class="container mx-auto my-8 px-4 mb-2">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 ">
             <!-- Photo 1 -->
             <div class="rounded-lg overflow-hidden shadow-lg">
@@ -193,19 +194,34 @@
     </main>
 
 
+    <header style="background-color: #FBCB0D;" class=" text-zinc-800 rounded-lg text-center py-4 lg:px-96">
+        <h1 class="text-2xl font-bold">Varian Topping Brownies Tiwol</h1>
+    </header>
+    <ul class="menu menu-horizontal lg:menu-horizontal bg-base-200 rounded-box">
+      <li><a>Keju</a></li>
+      <li><a>Coklat</a></li>
+      <li><a>Messes</a></li>
+      <li><a>Tiramisu</a></li>
+      <li><a>Choco Chruncy</a></li>
+      
+    </ul>
+</div>
+
+    <div class="hero  pb-24 min-w-screen">
+
+
+
                 <!-- Pesan sekarang -->
-                <div class="card card-side max-w-lg bg-base-100 shadow-xl flex justify-center px-5 flex-col">
+                <div class="card card-side max-w-lg bg-base-100 shadow-xl flex justify-center px-5 flex-col mt-32">
                   <h2 id="pesan" style="color: #63312D;" class="card-title pt-6 justify-center">Pesan Sekarang!</h2>
-                  <p class="card-title text-sm text-center justify-center pt-2">Silahkan klik salah satu tombol dibawah untuk langsung menghubungi whatsapp.</p>
+                  <p class="card-title text-sm text-center justify-center pt-2">Silahkan klik tombol dibawah untuk langsung menghubungi whatsapp.</p>
                   
                   <div class="polbody flex flex-row">
                     
                     <div class="card-body">
-                      <button onclick="window.open('https://wa.me/6285292890917?text=Halo%20Kak%2C%20Saya%20Tertarik%20dengan%20Brownies%20Tiwol','_blank')" class="btn bg-green-500">Whatsapp 1</button>
+                      <button onclick="window.open('https://wa.me/6285292890917?text=Halo%20Kak%2C%20Saya%20Tertarik%20dengan%20Brownies%20Tiwol','_blank')" class="btn bg-green-500">Whatsapp</button>
                     </div>
-                    <div class="card-body">
-                        <button onclick="window.open('https://wa.me/6285292890917?text=Halo%20Kak%2C%20Saya%20Tertarik%20dengan%20Brownies%20Tiwol','_blank')" class="btn bg-green-500">Whatsapp 2</button>
-                    </div>
+                    
 
 
 
@@ -223,8 +239,36 @@
       
       <!--  ====================ENDDD EDUCATION==================== -->
       
+      <!-- Tentang kami -->
+
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+
+
+      <!-- Tentang kami -->
       
-      
+
+
+    </div>
 
 
 
@@ -357,8 +401,11 @@
 
 
 
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
+      <script>
+        AOS.init();
+      </script>
       <script>
         
 function doruc() {
